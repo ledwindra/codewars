@@ -7,11 +7,14 @@ def shorten_to_date(long_date=None):
 
     Weekday Month Day, time e.g., Friday May 2, 7pm
 
-    You're running out of screen real estate, and on some pages you want to display a shorter format, Weekday Month Day that omits the time.
+    You're running out of screen real estate, and on some pages you want to display a shorter format, Weekday Month 
+    Day that omits the time.
 
-    Write a function, shortenToDate, that takes the Website date/time in its original string format, and returns the shortened format.
+    Write a function, shortenToDate, that takes the Website date/time in its original string format, and returns the 
+    shortened format.
 
-    Assume shortenToDate's input will always be a string, e.g. "Friday May 2, 7pm". Assume shortenToDate's output will be the shortened string, e.g., "Friday May 2".    
+    Assume shortenToDate's input will always be a string, e.g. "Friday May 2, 7pm". Assume shortenToDate's output will 
+    be the shortened string, e.g., "Friday May 2".    
     """
 
     punclist = list(punctuation)

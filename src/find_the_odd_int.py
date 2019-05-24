@@ -1,4 +1,4 @@
-def find_it(seq):
+def find_it(seq=None):
 
     """
     Description:

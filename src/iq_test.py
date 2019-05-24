@@ -1,4 +1,4 @@
-def iq_test(numbers):
+def iq_test(numbers=None):
     """
     Description:
 

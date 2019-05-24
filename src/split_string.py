@@ -27,4 +27,4 @@ def solution(s=None):
     return slist
 
 if __name__ == "__main__":
-    solution()    
+    solution()

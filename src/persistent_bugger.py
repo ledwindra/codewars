@@ -1,4 +1,4 @@
-def persistence(n):
+def persistence(n=None):
     """
     Description:
 
@@ -30,3 +30,6 @@ def persistence(n):
         step += 1
     
     return step
+
+if __name__ == "__main__":
+    persistence()    

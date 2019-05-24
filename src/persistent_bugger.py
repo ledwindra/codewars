@@ -14,20 +14,19 @@ def persistence(n):
     """
     
     step = 0
+    
+    while n >= 10:
 
-    if n >= 10:
-        while n >= 10:
+        multiplier = 1
+        nlist = list(str(n))
 
-            multiplier = 1
-            nlist = list(str(n))
+        for i in range(len(nlist)):
+            nlist[i] = int(nlist[i])
 
-            for i in range(len(nlist)):
-                nlist[i] = int(nlist[i])
+        for i in nlist:
+            multiplier = multiplier * i
+            n = multiplier
 
-            for i in nlist:
-                multiplier = multiplier * i
-                n = multiplier
-
-            step += 1
+        step += 1
     
     return step

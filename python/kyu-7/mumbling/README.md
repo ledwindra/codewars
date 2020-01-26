@@ -10,20 +10,3 @@ accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 ```
-
-# Test 
-
-Run the following on terminal:
-```
-python3 -m unittest test_mumbling.py
-```
-
-If passed, it will look like this:
-
-```
-.....
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-OK
-```

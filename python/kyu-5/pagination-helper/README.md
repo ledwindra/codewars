@@ -18,21 +18,3 @@ helper.page_index(2) # should == 0
 helper.page_index(20) # should == -1
 helper.page_index(-10) # should == -1 because negative indexes are invalid
 ```
-
-# Test
-
-Run on terminal:
-
-```
-python3 -m unittest test_pagination_helper.py
-```
-
-If passed, it will look like this:
-
-```
-...
-----------------------------------------------------------------------
-Ran 3 tests in 0.000s
-
-OK
-```

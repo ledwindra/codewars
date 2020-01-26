@@ -20,22 +20,3 @@ A word (string) of length 0 < str < 1000 (In javascript you may get slightly mor
 # Output
 
 The middle character(s) of the word represented as a string.
-
-# Test 
-
-Run the following on terminal:
-
-```
-cd ./kyu-7/get-middle-character
-python3 -m unittest test_main.py
-```
-
-If passed, it should look like the following:
-
-```
-.....
-----------------------------------------------------------------------
-Ran 5 tests in 0.000s
-
-OK
-```

@@ -18,21 +18,3 @@ highScoreTable.reset()
 highScoreTable.scores == []
 # And so on...
 ```
-
-# Test
-
-Run the following on terminal:
-
-```
-python3 -m unittest test_main.py
-```
-
-If passed, the result should look like the following:
-
-```
-.........
-----------------------------------------------------------------------
-Ran 9 tests in 0.000s
-
-OK
-```

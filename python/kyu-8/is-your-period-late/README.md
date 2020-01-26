@@ -7,19 +7,3 @@ today - The Date object with the date of the check
 cycleLength - Integer representing the length of the cycle in days
 
 If the today is later from last than the cycleLength, the function should return true. We consider it to be late if the number of passed days is larger than the cycleLength. Otherwise return false.
-
-# Test
-
-Run the following:
-```
-python3 -m unittest test_is_your_period_late.py
-```
-
-See the result:
-```
-..........
-----------------------------------------------------------------------
-Ran 10 tests in 0.000s
-
-OK
-```

@@ -17,21 +17,3 @@ If no bigger number can be composed using those digits, return -1:
 111 ==> -1
 531 ==> -1
 ```
-
-# Test
-
-Run the following:
-
-```
-python3 -m unittest test_main.py
-```
-
-Result:
-
-```
-.....
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-OK
-```

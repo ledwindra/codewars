@@ -1,4 +1,4 @@
-![Pytest](https://github.com/ledwindra/codewars/workflows/Pytest/badge.svg)
+![](https://github.com/ledwindra/codewars/workflows/Build/badge.svg)
 
 # About this Repository
 

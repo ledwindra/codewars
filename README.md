@@ -10,36 +10,33 @@ See my public profile [here](https://www.codewars.com/users/lukmanedwindra)
 
 # Clone
 
-Run the following on terminal:
-
 ```
 cd ~
 git clone https://github.com/ledwindra/codewars.git
 cd codewars/
 ```
 
-# Run test
-
-Run the following on terminal:
-
-```
-cd [kyu-N]/[kata-path]/
-python3 -m unittest test_[challenge_name].py
-```
-
 # Contribute
 
-After cloning, run the following on terminal:
+Install `hub` command line in order to be able to pull request ([link](https://github.com/github/hub)).
 
 ```
-git checkout -b [your-branch-name]
+git checkout -b [YOUR-BRANCH]
 git pull origin master
 git add .
-git commit -m [your-message]
-git push origin [your-branch-name]
+git commit -m "[YOUR COMMIT MESSAGE]"
+git push origin [YOUR-BRANCH]
+hub pull-request https://github.com/ledwindra/codewars.git -m "[TITLE]"
 ```
 
-By pushing it to your branch, it will create a pull request on me. If passed the test, it will be merged to master. But what would someone do that anyway? :laughing: 
+# Run test
 
-Anyway, thanks for reading and happy coding! :sunglasses:
-|
+Before contributing, run the following test on your local machine.
+
+```
+pytest python
+```
+
+If passed the tests, it can be merged to the `master` branch.
+
+Thanks for reading and happy coding! :sunglasses:

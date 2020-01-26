@@ -1,4 +1,4 @@
-FROM python:3.x
+FROM python:3
 
 # Setup a spot for the code
 WORKDIR /codewars

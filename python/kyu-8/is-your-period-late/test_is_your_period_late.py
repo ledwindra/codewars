@@ -1,7 +1,7 @@
 from datetime import date
 from is_your_period_late import is_late
 
-class TestMain:
+class TestIsLate:
 
     def test_0(self):
         assert is_late(date(2016, 6, 13), date(2016, 7, 16), 35) == False

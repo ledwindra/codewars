@@ -1,6 +1,6 @@
 from regular_ball_super_ball import Ball
 
-class TestMain:
+class TestBall:
 
     def test_0(self):
         assert Ball().ball_type == 'regular' 

@@ -1,3 +1,5 @@
+![Pytest](https://github.com/ledwindra/codewars/workflows/Pytest/badge.svg)
+
 # About this Repository
 
 Hello, :earth_asia:!
@@ -40,3 +42,4 @@ git push origin [your-branch-name]
 By pushing it to your branch, it will create a pull request on me. If passed the test, it will be merged to master. But what would someone do that anyway? :laughing: 
 
 Anyway, thanks for reading and happy coding! :sunglasses:
+|

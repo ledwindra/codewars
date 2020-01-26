@@ -17,9 +17,6 @@ jobs:
        docker build --tag python .
        docker run --rm python pytest python
        
-name: Pytest
-on: push
-
 jobs:
   build:
     name: Pytest

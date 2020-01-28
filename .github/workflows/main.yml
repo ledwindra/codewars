@@ -17,4 +17,4 @@ jobs:
      run: |
        docker build --tag python .
        docker run --rm python pytest python
-       pytest --cov python
+       docker run coverage run -m pytest python

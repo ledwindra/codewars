@@ -21,7 +21,7 @@ cd codewars/
 ```
 python3 -m venv venv-codewars
 source venv-codewars/bin/activate
-pip3 install pytest>=5.3.4
+pip3 install pytest
 ```
 
 Run `deactivate` to exit from virtual environment.

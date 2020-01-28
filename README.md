@@ -4,7 +4,7 @@
 
 Hello, :earth_asia:!
 
-[Codewars](https://www.codewars.com/) is an educational community for :computer: programming. It provides :question: :pencil: :dart: on many programming languages. Currently, I am using Python >= 3.6.0 :snake: to solve the problems. No third party modules required. For each challenge on each kyu, I provide [unittest](https://docs.python.org/3/library/unittest.html). Note that they are not the best solutions ever made. My key interest include algorithms, data structures, and object oriented programming.
+[Codewars](https://www.codewars.com/) is an educational community for :computer: programming. It provides :question: :pencil: :dart: on many programming languages. Currently, I am using Python >= 3.6.0 :snake: to solve the problems. No third party module is required besides `pytest`. Note that they are not the best solutions ever made. My key interest include algorithms, data structures, and object oriented programming.
 
 See my public profile [here](https://www.codewars.com/users/lukmanedwindra)
 
@@ -15,6 +15,16 @@ cd ~
 git clone https://github.com/ledwindra/codewars.git
 cd codewars/
 ```
+
+# Use virtual environment
+
+```
+python3 -m venv venv-codewars
+source venv-codewars/bin/activate
+pip3 install pytest>=5.3.4
+```
+
+Run `deactivate` to exit from virtual environment.
 
 # Contribute
 

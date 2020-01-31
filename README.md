@@ -1,4 +1,4 @@
-![Build](https://github.com/ledwindra/codewars/workflows/Build/badge.svg?branch=master)
+![Test](https://github.com/ledwindra/codewars/workflows/Test/badge.svg)
 
 # About this Repository
 

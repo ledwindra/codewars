@@ -10,14 +10,16 @@ class TestEvenOdd < Test::Unit::TestCase
     assert_equal(even_or_odd(7), "Odd")
     assert_equal(even_or_odd(1), "Odd")
     assert_equal(even_or_odd(-1), "Odd")
-  end 
+  end
+  
 end
 
 class TestSumPositive < Test::Unit::TestCase
- 
+  
   def test_sum_positive
     assert_equal(positive_sum([1, 2, 3, 4, 5]), 15)
     assert_equal(positive_sum([1,-2,3,4,5]), 13)
     assert_equal(positive_sum([-1,2,3,4,-5]), 9)
   end
+  
 end

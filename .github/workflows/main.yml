@@ -31,4 +31,4 @@ jobs:
         ruby-version: 2.6.x
     - name: Test ruby
       run: |
-        ruby ruby/kyu-8/even-or-odd/tc_even_or_odd.rb
+        ruby ruby/tc_kata.rb
